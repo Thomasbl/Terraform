@@ -20,7 +20,7 @@ resource "google_compute_network" "vpc_network" {
   name = "terraform-network"
 }
 
-// A single Compute Engine instances
+// A single Compute Engine instance
 resource "google_compute_instance" "default" {
  name         = "test"
  machine_type = "f1-micro"
