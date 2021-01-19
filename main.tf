@@ -9,9 +9,9 @@ terraform {
 
 provider "google" {
 
-  credentials = file("terraform-297519-0be2aecac844.json")
+  credentials = file("terraform-jenkins-298018-e3ca5de206a9.json")
 
-  project = "terraform-297519"
+  project = "terraform-jenkins-298018"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
